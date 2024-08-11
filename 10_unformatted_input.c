@@ -1,3 +1,5 @@
+// Unformatted input function 
+
 #include <stdio.h>
 #include <conio.h>
 
