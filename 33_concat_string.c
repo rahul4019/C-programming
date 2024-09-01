@@ -15,6 +15,7 @@ int main () {
     //     printf("%c", s1[i]);
     //     i++;
     // }
+    
     int l1 = strlen(s1);
     int l2 = strlen(s2);
     for (int i = 0; i <= l2; i++) {
