@@ -14,7 +14,23 @@ int main() {
     // ptr3 = &x; // wrong datatype of variable for this pointer
     // ptr3 = &y; // wrong datatype of variable for this pointer
 
-    printf("%d", p);
+    printf("%d\n", p); // will print address of the variable stored in pointer p as integer
+    printf("%d\n", *p); // will print the value of variable it is pointing to
+
+    printf("address of a = %x\n", &a); // address of a in hexadecimal
+
+
+    int r;
+    int *ptr4;
+    ptr4 = &a;
+    r = *ptr4;
+    *ptr4 = 20;
+
+
+
+    printf("r = %d\n", r);
+    printf("a = %d\n", a);
+    
 
     return 0;
 }
