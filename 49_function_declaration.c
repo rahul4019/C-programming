@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int sum(int a, int b); // function declaration
+int sum(int, int); // function declaration
 // sum(int a, int b); // it will give warning at compile time beacuse there is
 // no return type
 
