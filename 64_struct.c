@@ -25,5 +25,16 @@ int main() {
 
   printf("%d\n", s1.roll_no);
   printf("%s\n", s3.name);
+
+  s2 = s1; // copy
+
+  printf("%s\n", s2.name);
+
+  // run time initialization
+  struct Student s5;
+  scanf("%d", &s5.roll_no);
+  scanf("%s", s5.name);
+  scanf("%f", &s5.marks);
+  printf("%s\n", s5.name);
   return 0;
 }
